@@ -5,6 +5,7 @@ mkdir build
 cd build
 cmake .. -DCMAKE_BUILD_TYPE=Release
 make -j
+sudo make install
 
 cd ../../g2o
 
@@ -14,6 +15,7 @@ mkdir build
 cd build
 cmake .. -DCMAKE_BUILD_TYPE=Release
 make -j
+sudo make install
 
 cd ../../Sophus
 
@@ -23,6 +25,7 @@ mkdir build
 cd build
 cmake .. -DCMAKE_BUILD_TYPE=Release
 make -j
+sudo make install
 
 cd ../../../
 
@@ -37,4 +40,4 @@ echo "Configuring and building ORB_SLAM3 ..."
 mkdir build
 cd build
 cmake .. -DCMAKE_BUILD_TYPE=Release
-make -j4
+make -j24
